@@ -1,0 +1,70 @@
+body{
+    margin: 0;;
+}
+#box1{
+    background-color: #344F1F;
+    color: #F4991A;
+    border:1px solid #F4991A;
+    border-radius: 5px;
+    width:400px;
+    height: 350px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    display:inline-block;
+    background-image: url(halo.jpg);
+    background-size: cover;
+}
+#box2{
+    background-color: #0d0400;
+    color: #FF9A00;
+    border:1px solid #FF9A00;
+    border-radius: 5px;
+     width:400px;
+    height: 350px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    display:inline-block;
+    background-image: url(simon\ riley.jpeg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#box3{
+    background-color: #079aad;
+    color: #FFF287;
+    border:1px solid #FFF287;
+    border-radius: 5px;
+     width:400px;
+    height: 350px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    display:inline-block;
+    background-image: url(prime2.jpg);
+    background-size: cover;
+    /* background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+h1{
+    background-color: #26355D;
+    color: #FFDB00;
+    width:100vw;
+    height: 50px;
+    margin:0;
+    margin-bottom:0px;
+    padding-left: 0;
+    text-align: center;
+}
+h2{
+    background-color: #000957;
+    color: #FFEB00;
+    width:100vw;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul{
+    margin-top: 0;
+    background-color: #10375C;
+    color: #F3C623;
+}
