@@ -1,0 +1,138 @@
+h1{
+    background-color: #000957;
+    color: #FFEB00;
+    width:100vw;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+}
+ul{
+    font-size: 25px;
+    margin-top: 0;
+    background-color: #10375C;
+    color: #F3C623;
+}
+/* body{
+    text-align: center;
+} */
+div{
+    text-align: center;
+}
+#First{
+    background-color:#B8001F;
+    color: #ffffff;
+    border:1px solid #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    height: 700px;
+    display:flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse;*/
+    /* flex-direction: column;  */
+     /* flex-direction: column; */
+     /* flex-direction: column-reverse; */
+     /* justify-content: flex-start;
+        justify-content: flex-end; */
+     /* justify-content: space-around; */
+     /* justify-content: space-between; */
+     /* justify-content: space-evenly; */
+     justify-content: center;
+    /* flex-wrap:wrap; */
+     /* align-items:flex-start;  */
+     align-items: center;
+     align-content: center;
+      /* align-content:flex-start; */
+      /* align-content: flex-end; */
+}
+#box1{
+    width:100px;
+    height:100px;
+    background-color:black;
+    color:#FF7F11;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border:2px solid #FF7F11;
+    border-radius:5px;
+    display:inline-block;
+}
+#box2{
+    width:300px;
+    height:200px;
+    background-color:#011638;
+    color:#9055A2;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border:2px solid #9055A2;
+    border-radius:5px;
+    display:inline-block;
+    /* align-self: flex-end; */
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+#box3{
+    width:100px;
+    height:100px;
+    background-color:#2E294E;
+    color:#D499B9;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border: 2px solid #D499B9;
+    border-radius:5px;
+    display:inline-block;
+}
+#box4{
+    width:100px;
+    height:100px;
+    background-color:#34252F;
+    color:#BEC5AD;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border: 2px solid #BEC5AD;
+    border-radius:5px;
+    display:inline-block;
+
+}
+#box5{
+    width:100px;
+    height:100px;
+    background-color: #000957;
+    color: #FFEB00;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border: 2px solid #BEC5AD;
+    border-radius:5px;
+    display:inline-block;
+}
+h1{
+    padding-top:25px;
+}
+/* on changing the height of the outer div to less the inner div boxes are not adjusting where as on width decrease the boxes are adjusting why?
+Flexbox Axes
+
+flex-direction: row (your case)
+→ Main axis = horizontal (left → right)
+→ Cross axis = vertical (top → bottom)
+
+Flex-wrap works only on the main axis.
+
+So when width is reduced, items wrap into a new row → ✅ they adjust.
+
+When height is reduced, items don’t wrap → ❌ they just overflow, because wrapping doesn’t happen on the cross axis. *
+1. justify-content
+
+Works on the main axis (depends on flex-direction).
+
+Aligns all items in one line.
+2. align-items
+
+Works on the cross axis.
+
+Aligns items within a single line.
+3. align-content
+
+Works on the cross axis too, BUT:
+
+Only applies when you have multiple lines of items (because of flex-wrap: wrap).
+
+It controls spacing between the rows/columns./
