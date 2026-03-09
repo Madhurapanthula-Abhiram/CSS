@@ -1,0 +1,16 @@
+h1{
+    padding:20px;
+    color: rgba(255,0,0,0.5);
+}
+h2{
+    padding: 20px;
+    color: rgba(255,0,0,0.7);
+}
+h3{
+    padding: 20px;
+    color: rgba(255,0,0,0.9);
+}
+h4{
+    padding: 20px;
+    color: rgba(255,0,0,1);
+}
